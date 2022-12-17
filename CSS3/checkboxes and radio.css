@@ -1,0 +1,8 @@
+input:focus{
+    background: rgb(240, 233, 233);
+}
+#nick{
+    margin-left: 35px;
+    /* display: none; */
+    display: none;
+}

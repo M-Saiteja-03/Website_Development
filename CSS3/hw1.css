@@ -1,0 +1,168 @@
+/* Styling Table */
+table{
+    border: rgb(22, 22, 22) solid 3px;
+    margin: 5%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    background-color: rgb(156, 8, 8);
+    -webkit-border-radius: 5px 5px 0 0 ;
+    border-radius: 5px 5px 0 0 ;
+    border-bottom: 5px;
+    border-color:black;
+    border-style: solid;
+    color:azure;
+    font-family: normal;
+    font-size: 25px;
+}
+td{
+    background: rgba(228, 64, 64);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+tr{
+    opacity: 0.8;
+}
+tr:hover{
+    opacity: 1;
+}
+td:last-child{
+    text-align: center;
+}
+td:nth-child(even){
+    text-align: center;
+}
+th:first-child{
+    text-align: left;
+}
+
+/* Styling rest */
+header{
+    background-color:rgb(50, 214, 255);
+    /* color: rgb(223, 16, 16); */
+    background-image: url("frisbee.jpeg");
+    height: 200px;
+    background-repeat: no-repeat;
+    /* background-position: 150%; */
+    background-size: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.left{
+    display:inline-block;
+    background-color:maroon;
+    width: 20%;
+    padding-bottom: 50vh;
+    padding-top: 10px;
+    float: left;
+    /* height:100vh; */
+    /* position: relative; */
+    border:solid 3px black;
+    
+}
+.right{
+    display: block;
+    float: right;
+    width: 79%;
+    font-size: 125%;
+}
+aside img{
+    display: block;
+    width: 70%;
+    height: 80%;
+    margin: 20px auto;
+    border: solid 3px black;
+    /* height: 100px; */
+}
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    color: mintcream;
+}
+nav a{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 1px rgb(3, 3, 3) ;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    /* background-color: rgb(25, 247, 110); */
+    background: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-weight: 900;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: #fff;
+}
+
+.active{
+      background-color: #fff;
+  }
+
+body{
+    background: linear-gradient(rgb(204, 186, 186) 50%,white);
+    padding: 5px;
+    margin: 5px;
+    /* height: 100vh; */
+}
+@media only screen and (max-width: 1200px) {
+    /*For mobile phones:*/ 
+    nav a{
+        margin:0;
+        padding-left: 20;
+        padding-right: 20;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /*For mobile phones:*/ 
+     .left,.right {
+      width:100%;
+    }
+}
+table{
+    border: rgb(22, 22, 22) solid 3px;
+    margin: 5%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+th{
+    background-color: rgb(156, 8, 8);
+    -webkit-border-radius: 5px 5px 0 0 ;
+    border-radius: 5px 5px 0 0 ;
+    border-bottom: 5px;
+    border-color:black;
+    border-style: solid;
+    color:azure;
+    font-family: normal;
+    font-size: 25px;
+}
+td{
+    background: rgba(228, 64, 64);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+tr{
+    opacity: 0.8;
+}
+tr:hover{
+    opacity: 1;
+}
+td:last-child{
+    text-align: center;
+}
+td:nth-child(even){
+    text-align: center;
+}

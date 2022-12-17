@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Input Form</title>
+</head>
+<body>
+    <h1>Html Form</h1>
+    <form action="backend.php">
+        <div>
+            Name:<input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            email:<input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Salary:<input type="number" name="mySalary">
+        </div>
+        <br>
+        <div>
+            Are you eligible?:<input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender">Female<input type="radio" name="myGender">Others<input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            About Yourself:<br><textarea name="myText" id="" cols="60" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="mC">Your Company:</label>
+            <select name="myCompany" id="mC">
+                <option value="Microsoft">Microsoft</option>
+                <option value="Google">Google</option>
+                <option value="Amazon"selected>Amazon</option>
+                <option value="Goldmansachs">Goldmansachs</option>
+                <option value="SAP Labs">SAP Labs</option>
+                <option value="Service Now">Service Now</option>
+                <option value="F5 Networks">F5 Networks</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <hr>
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(190, 175, 175);
+    /* background: linear-gradient(90deg,white,rgb(158, 146, 146) 90%,white); */
+    background: radial-gradient(rgb(228, 221, 221) 50%,rgb(158, 146, 146) 90%);
+}
+header,footer{
+    background: rgb(172, 172, 172);
+    background: -webkit-linear-gradient(rgb(69, 218, 255),grey);
+    background: -moz-linear-gradient(rgb(69, 218, 255),grey);
+    background: -o-linear-gradient(rgb(69, 218, 255),grey);
+}
+header{
+    /* background-color: rgb(172, 172, 172); */
+    text-align: center;
+}
+footer{
+    padding: 5px;
+    padding-bottom: 40px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+}
+nav{
+    font-size: 150%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* section{
+    background-color: lightgrey;
+    display: block;
+    width: 30%;
+    border: solid 3px black;
+    float: left;
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}*/
+#achievements{
+    padding-bottom: 39px;
+}
+/*#about{
+    padding-bottom: 85px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#Favfoods{
+    padding-right: 10px;
+    padding-left: 10px;
+} */
+.half{
+    display: block;
+    width: 43%;
+    float:left;
+    margin: 20px;
+    /* background: rgb(177, 166, 166); */
+}
+.whole{
+    display: block;
+    clear: both;
+    margin: 20px;
+    /* background: rgb(177, 166, 166); */
+}
+
+details{
+    font-style: oblique;
+    font-size: 125%;
+}
+summary{
+    font-style: normal;
+    font-size: 120%;
+    font-weight: bold;
+}
+ul{
+    font-family:cursive,"times new roman",arial;
+    list-style-type: square;
+}
+label{
+    font-size: 125%;
+}
+h2{
+    background-color:rgb(0, 236, 185);
+    font-size: 175%;
+    background: linear-gradient(rgb(0, 236, 185) 60%,grey);
+}
+img{
+    background-color: rgb(250, 102, 3);
+    background: linear-gradient(rgb(250, 102, 3) 70%,rgb(255, 240, 34));
+    width: 200px;
+}
+img:hover{
+    background: white;
+}
+span{
+font-size: 130%;
+}
+
+nav a{
+    display: inline-block;
+    margin: 10px;
+    border: solid 1px rgb(3, 3, 3) ;
+    padding: 10px;
+    /* background-color: rgb(25, 247, 110); */
+    background: linear-gradient(rgb(25, 247, 110) 60%,grey);
+    text-decoration: underline;
+    color: rgb(14, 3, 168);
+}
+a:hover{
+    background: white;
+}
+a:focus{
+    background-color: #fff;             
+}
